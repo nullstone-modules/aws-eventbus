@@ -1,0 +1,13 @@
+org_name: nullstone
+name: aws-eventbus
+friendly_name: Event Bus
+description: Creates an Event Bus which serves as a central director of messages for event-driven architectures.
+category: datastore
+subcategory: ""
+provider_types:
+    - aws
+platform: eventbus
+subplatform: eventbridge
+type: ""
+appCategories: []
+is_public: true
