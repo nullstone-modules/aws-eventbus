@@ -1,6 +1,8 @@
 resource "aws_iam_role" "scheduler" {
   name               = local.resource_name
   assume_role_policy = data.aws_iam_policy_document.assume_role.json
+
+  tags = local.tags
 }
 
 data "aws_iam_policy_document" "assume_role" {
